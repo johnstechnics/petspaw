@@ -4,10 +4,10 @@
 
 Stack:
 
-HTML
-CSS
-JS
-React
+- HTML
+- CSS
+- JS
+- React
 
 [TheDogApi](https://thedogapi.com/)
 
