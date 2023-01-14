@@ -4,10 +4,12 @@
 
 Stack:
 
-- HTML
-- CSS
-- JS
-- React
+-   HTML
+-   CSS
+-   JS
+-   React
+-   Redux
+-   Axios
 
 [TheDogApi](https://thedogapi.com/)
 

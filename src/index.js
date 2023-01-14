@@ -7,9 +7,9 @@ import { AppContainer } from './AppContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<HashRouter>
+	<BrowserRouter>
 		<Provider store={store}>
 			<AppContainer />
 		</Provider>
-	</HashRouter>
+	</BrowserRouter>
 );
