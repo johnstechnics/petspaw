@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/petspaw/static/css/main.facd5de6.css",
-    "main.js": "/petspaw/static/js/main.bc5bdfcd.js",
+    "main.css": "/petspaw/static/css/main.1b0e0fdf.css",
+    "main.js": "/petspaw/static/js/main.d55972f6.js",
     "static/media/home_img.png": "/petspaw/static/media/home_img.4a06769077f0abc21742.png",
     "static/media/Jost-Medium.ttf": "/petspaw/static/media/Jost-Medium.49273d86e64ba1ff3a2c.ttf",
     "static/media/Jost-Regular.ttf": "/petspaw/static/media/Jost-Regular.d4084cb48f36197c90b9.ttf",
@@ -28,11 +28,11 @@
     "static/media/close.svg": "/petspaw/static/media/close.6096fa53ae540182b45f3440b2277e79.svg",
     "static/media/upload.svg": "/petspaw/static/media/upload.0f4a30d3f5d6b23fa2518a95bd7e52d6.svg",
     "static/media/burger.svg": "/petspaw/static/media/burger.5cd288fe6c0e246a5de761a19e9362ef.svg",
-    "main.facd5de6.css.map": "/petspaw/static/css/main.facd5de6.css.map",
-    "main.bc5bdfcd.js.map": "/petspaw/static/js/main.bc5bdfcd.js.map"
+    "main.1b0e0fdf.css.map": "/petspaw/static/css/main.1b0e0fdf.css.map",
+    "main.d55972f6.js.map": "/petspaw/static/js/main.d55972f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.facd5de6.css",
-    "static/js/main.bc5bdfcd.js"
+    "static/css/main.1b0e0fdf.css",
+    "static/js/main.d55972f6.js"
   ]
 }
