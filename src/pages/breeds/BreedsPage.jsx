@@ -8,7 +8,7 @@ export const BreedsPage = (props) => {
 		<div className="breeds page">
 			<div className="page__content">
 				<div className="page__options">
-					<Breadcrumbs />
+					<Breadcrumbs currentPage={'breeds'} />
 					<BreedsForm
 						breedsSingleSelectData={props.breedsSingleSelectData}
 						breedsLimitSelectData={props.breedsLimitSelectData}

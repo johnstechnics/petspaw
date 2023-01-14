@@ -7,7 +7,7 @@ export const BreedPage = (props) => {
 		<div className="breed page">
 			<div className="page__content">
 				<div className="page__options">
-					<Breadcrumbs />
+					<Breadcrumbs currentPage={'breed'} />
 					<div className="breed__id">
 						{props.breedId}
 					</div>

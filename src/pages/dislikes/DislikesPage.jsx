@@ -8,7 +8,7 @@ export const DislikesPage = (props) => {
         <div className="dislikes page">
             <div className="page__content">
                 <div className="page__options">
-                    <Breadcrumbs />
+                    <Breadcrumbs currentPage={'dislikes'} />
                 </div>
                 {props.dislikes.length === 0 ? (
                     props.isGetVotesSuccess.status ? (

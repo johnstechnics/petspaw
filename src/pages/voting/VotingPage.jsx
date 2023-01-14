@@ -6,7 +6,7 @@ export const VotingPage = () => (
 	<div className="voting page">
 		<div className="page__content">
 			<div className="page__options">
-				<Breadcrumbs />
+				<Breadcrumbs currentPage={'voting'} />
 			</div>
 			<VotingCardContainer />
 			<VotingActionsContainer />

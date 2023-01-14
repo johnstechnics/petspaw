@@ -8,7 +8,7 @@ export const FavoritesPage = (props) => {
         <div className="favorites page">
             <div className="page__content">
                 <div className="page__options">
-                    <Breadcrumbs />
+                    <Breadcrumbs currentPage={'favorites'} />
                 </div>
                 {props.favorites.length === 0 ? (
                     props.isGetFavoritesSuccess.status ? (

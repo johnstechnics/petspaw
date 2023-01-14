@@ -10,7 +10,7 @@ export const GalleryPage = (props) => {
 			<div className="page__content">
 				<div className="page__options">
 					<div className="page__options_top">
-						<Breadcrumbs />
+						<Breadcrumbs currentPage={'gallery'} />
 						<button
 							className="upload__open"
 							onClick={() => {

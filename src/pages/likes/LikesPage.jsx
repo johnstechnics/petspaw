@@ -8,7 +8,7 @@ export const LikesPage = (props) => {
         <div className="likes page">
             <div className="page__content">
                 <div className="page__options">
-                    <Breadcrumbs />
+                    <Breadcrumbs currentPage={'likes'} />
                 </div>
                 {props.likes.length === 0 ? (
                     props.isGetVotesSuccess.status ? (

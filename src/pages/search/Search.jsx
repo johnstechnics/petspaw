@@ -7,7 +7,7 @@ export const Search = (props) => {
         <div className="search page">
             <div className="page__content">
                 <div className="page__options">
-                    <Breadcrumbs />
+                    <Breadcrumbs currentPage={'search'} />
                 </div>
                 <p className="search__for">
                     Search results for: <span>{props.searchFor}</span>

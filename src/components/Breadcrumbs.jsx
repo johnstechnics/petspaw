@@ -1,16 +1,26 @@
-import { useLocation } from 'react-router-dom';
-import { GoBack } from './GoBack';
+import { useNavigate } from 'react-router-dom';
+import { ReactComponent as BackImg } from '../assets/img/back.svg';
 
-export const Breadcrumbs = () => {
+export const Breadcrumbs = (props) => {
 
-    const currentPage = useLocation().pathname.slice(1);
+    const navigate = useNavigate();
+
+    const goBack = () => {
+        navigate(-1);
+    };
 
     return (
         <div className="breadcrumbs">
-			<GoBack />
-			<div className="current__page">
-                {currentPage}
+            <button
+                title="Back"
+                onClick={goBack}
+                className="back__btn"
+            >
+                <BackImg />
+            </button>
+            <div className="current__page">
+                {props.currentPage}
             </div>
-		</div>
+        </div>
     )
 };
